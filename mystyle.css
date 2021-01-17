@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my css*/
+body
+{
+  width: 100%;
+  font-family: 微軟正黑體;
+}
+.container
+{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer
+{
+  width: 100%;
+  background: #415165 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.container h1
+{
+margin-top: 40px;
+margin-bottom: 20px;
+  text-align: left;
+  font: normal normal normal 80px/95px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.h1_hr
+{
+  border: 2px solid #000000;
+  opacity: 1;
+}
+.profile
+{
+  margin-bottom: 50px; 
+}
+.title
+{
+  text-align: left;
+  font: normal normal 600 32px/45px 微軟正黑體;
+  letter-spacing: 0px;
+  line-height: 45px;
+  color: #000000;
+  opacity: 1;
+}
+.title span
+{
+  text-align: left;
+  font: normal normal 600 24px/29px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #A00404;
+  opacity: 1;
+}
+.titleWhite
+{
+  color:#FFF;
+}
+ul
+{
+  text-align: left;
+  font: normal normal 300 24px/36px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.photo
+{
+  height: 380px;
+  display:flex;
+  align-items: center;
+}
+.education
+{
+  margin-bottom: 50px;
+}
+.skills
+{
+  padding: 30px;
+  background: #415165 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+.skills .title
+{
+  text-align: center;
+}
+.skills div
+{
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  border-left:  0.5px solid #FFF;
+}
+.skills ul
+{
+  text-align: left;
+  color: #FFF;
+  line-height: 52px;
+  border-left: 1px  ;
+}
+.skills hr
+{
+  border: 0.5px solid #FFFFFF;
+  width: 996px;
+  opacity: 1;
+}
+.workex
+{
+  margin-bottom: 50px;
+}
+.workList
+{
+  margin-top: 20px;
+  margin-left: 20px;
+  border-left: 2px solid #DDD;
+  padding-left: 20px;
+}
+.text
+{
+  width: 642px;
+}
+.workList li
+{
+  text-align: left;
+  font: normal normal 600 24px/36px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 30px;
+}
+.text
+{
+  text-align: left;
+  font: normal normal 300 20px/30px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.note
+{
+  margin-bottom: 50px;
+}
+.noteList
+{
+  padding-left: 20px;
+  line-height: 70px;
+}
+.noteList a
+{
+  text-decoration: none;
+  color: #000;
+  border: 5px solid #555555;
+  padding: 5px;
+  font: normal normal 400 24px/36px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  transition-duration: 1s;
+}
+.noteList a:hover
+{
+  background: #555555;
+  color: #FFF;
+}
+.contact
+{
+  padding: 50px;
+}
+.contact hr
+{
+  border: 0.5px solid #FFFFFF;
+  opacity: 1;
+}
+.contact h2 
+{
+  text-align: center;
+}
+.footer .container ul
+{
+  margin-top: 20px;
+  text-align: center;
+  font: normal normal 300 24px/36px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  line-height: 48px;
+}
+.contact img
+{
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
