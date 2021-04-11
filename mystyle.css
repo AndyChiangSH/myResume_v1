@@ -51,7 +51,10 @@ table {
 body
 {
   width: 100%;
-  font-family: 微軟正黑體;
+  text-align: left;
+  font: normal normal 300 24px/36px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #000000;
 }
 .container
 {
@@ -67,8 +70,8 @@ body
 }
 .container h1
 {
-margin-top: 40px;
-margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   text-align: left;
   font: normal normal normal 80px/95px 微軟正黑體;
   letter-spacing: 0px;
@@ -115,10 +118,28 @@ ul
 }
 .photo
 {
-  height: 380px;
+  height: 420px;
   display:flex;
   align-items: center;
 }
+.photo img
+{
+  width: 360px;
+}
+
+.motto
+{
+  margin-bottom: 50px;
+}
+
+.my_motto
+{
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .education
 {
   margin-bottom: 50px;
@@ -181,14 +202,6 @@ ul
   opacity: 1;
   margin-top: 30px;
 }
-.text
-{
-  text-align: left;
-  font: normal normal 300 20px/30px 微軟正黑體;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
 .note
 {
   margin-bottom: 50px;
@@ -208,7 +221,7 @@ ul
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
-  transition-duration: 1s;
+  transition-duration: 500ms;
 }
 .noteList a:hover
 {
@@ -247,6 +260,4 @@ ul
 .github{
   width: 48px;
 }
-.photo img{
-  width: 320px;
-}
+
