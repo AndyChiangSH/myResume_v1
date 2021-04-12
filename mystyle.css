@@ -65,7 +65,7 @@ body
 .footer
 {
   width: 100%;
-  background: #415165 0% 0% no-repeat padding-box;
+  background: #415165;
   opacity: 1;
 }
 .container h1
@@ -223,7 +223,9 @@ ul
 }
 .contact
 {
-  padding: 50px;
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
 }
 .contact hr
 {
