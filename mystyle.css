@@ -271,3 +271,7 @@ ul
     margin-bottom: 50px;
   }
 }
+
+.hits {
+  text-align: end;
+}
